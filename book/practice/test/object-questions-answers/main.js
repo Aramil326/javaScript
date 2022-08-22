@@ -15,15 +15,6 @@ for (let key in questionsAnswers) {
   test.append(div)
 }
 
-// questions.forEach(elem => {
-//   const div = document.createElement('div');
-//   div.innerHTML = `
-//   <p>${elem}</p>
-//   <input>
-//   `
-//   test.append(div)
-// })
-
 const button = document.querySelector('button');
 
 button.addEventListener('click', () => {
