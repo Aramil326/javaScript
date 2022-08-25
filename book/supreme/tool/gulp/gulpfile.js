@@ -1,7 +1,9 @@
 let gulp = require('gulp');
 
 function task(cb) {
-  console.log('taskD');
+  task1(cb)
+  task2(cb)
+  task3(cb)
   cb();
 }
 
@@ -19,9 +21,5 @@ function task3(cb) {
   console.log(new Date().getFullYear());
   cb();
 }
-
-exports.task1 = task1;
-exports.task2 = task2;
-exports.task3 = task3;
 
 exports.default = task;
