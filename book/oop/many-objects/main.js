@@ -1,7 +1,7 @@
 class Employee {
-  name = 'John';
-  age = 35;
-  salary = 350;
+  name;
+  age;
+  salary;
 }
 
 let employee1 = new Employee
