@@ -2,8 +2,11 @@ class Employee {
   name;
   salary;
 
-  console() {
-    console.log(this.name + ' ' + this.salary)
+  showName() {
+    console.log(this.name)
+  }
+  showSalary() {
+    console.log(this.salary)
   }
 }
 
@@ -12,4 +15,5 @@ let employee = new Employee
 employee.name = 'John'
 employee.salary = 350
 
-employee.console()
+employee.showName()
+employee.showSalary()
